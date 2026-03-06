@@ -1,8 +1,3 @@
-# Command Center Pro
-
-[README.md](http://readme.md/)
-
-```markdown
 # ⚡ Command Center Pro
 
 **A Modular Process Orchestration & Automation Dashboard**
