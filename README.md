@@ -1,4 +1,4 @@
-# ⚡ Command Center Pro
+# Command Center Pro
 
 **A Modular Process Orchestration & Automation Dashboard**
 
@@ -6,7 +6,7 @@ Command Center Pro is a robust, GUI-based desktop environment designed to manage
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 1. [Key Features](#-key-features)
 2. [Architecture & Under the Hood](#-architecture--under-the-hood)
 3. [Installation](#%EF%B8%8F-installation)
@@ -17,7 +17,7 @@ Command Center Pro is a robust, GUI-based desktop environment designed to manage
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. Dual Execution Modes
 * **CLI Mode:** Runs scripts in a headless background environment while routing `stdout` and `stdin` to a real-time, non-blocking terminal emulator built into the app's script cards.
@@ -39,7 +39,7 @@ Command Center Pro is a robust, GUI-based desktop environment designed to manage
 
 ---
 
-## 🧠 Architecture & Under the Hood
+## Architecture & Under the Hood
 
 This project is built using a strict **Model-View-Controller (MVC)** pattern to ensure stability:
 * **The Backend (`script_manager.py`):** Handles process creation (`subprocess.Popen`), I/O piping, and multithreading. It uses `os.read` with unbuffered binary pipes to capture output byte-by-byte, preventing the dreaded Tkinter UI freeze when scripts ask for user input.
@@ -47,7 +47,7 @@ This project is built using a strict **Model-View-Controller (MVC)** pattern to 
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 **Prerequisites:** Python 3.8+ installed on your system.
 
@@ -65,7 +65,7 @@ This project is built using a strict **Model-View-Controller (MVC)** pattern to 
     python dashboard.py
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Managing Scripts
 
@@ -85,7 +85,7 @@ Click the **Gear Icon (⚙️)** on any script card to open its settings:
 
 ---
 
-## 🖼️ Creating a "Widget-Mode" Script
+## Creating a "Widget-Mode" Script
 
 Want your script to have buttons and sliders instead of just printing text? Create a new script and define a `Widget` class that inherits from `ctk.CTkFrame`.
 
@@ -121,7 +121,7 @@ class Widget(ctk.CTkFrame):
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 
 📁 command-center-pro/
@@ -140,7 +140,7 @@ class Widget(ctk.CTkFrame):
 ```
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3
 - **GUI Framework:** CustomTkinter
