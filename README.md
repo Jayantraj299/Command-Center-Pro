@@ -55,7 +55,7 @@ This project is built using a strict **Model-View-Controller (MVC)** pattern to 
    ```bash
    git clone [https://github.com/yourusername/command-center-pro.git](https://github.com/yourusername/command-center-pro.git)
    cd command-center-pro
-```
+
 
 1. **Install the dependencies:**Bash
     
@@ -128,9 +128,8 @@ class Widget(ctk.CTkFrame):
 
 ## 📂 Project Structure
 
-Plaintext
 
-`📁 command-center-pro/
+📁 command-center-pro/
 │
 ├── dashboard.py         # Main Frontend GUI & Event Loop
 ├── script_manager.py    # Backend Threading, Subprocesses & Logic
