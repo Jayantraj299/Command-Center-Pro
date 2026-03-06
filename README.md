@@ -53,7 +53,7 @@ This project is built using a strict **Model-View-Controller (MVC)** pattern to 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/command-center-pro.git](https://github.com/yourusername/command-center-pro.git)
+   git clone https://github.com/Jayantraj299/Command-Center-Pro.git
    cd command-center-pro
 
 
