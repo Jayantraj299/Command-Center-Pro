@@ -127,7 +127,7 @@ class Widget(ctk.CTkFrame):
 ---
 
 ## 📂 Project Structure
-
+```bash
 
 📁 command-center-pro/
 │
@@ -142,7 +142,7 @@ class Widget(ctk.CTkFrame):
 │   └── example.json     # Auto-generated isolated config for example.py
 │
 └── 📁 logs/             # Persistent stdout/stderr logs for processes`
-
+```
 ---
 
 ## ⚙️ Tech Stack
