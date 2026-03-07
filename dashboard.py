@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # dashboard.py
 import customtkinter as ctk
 import os
@@ -17,8 +16,11 @@ from taskbar_tray import SystemTray
 SETTINGS_FILE = "settings.json"
 
 CLI_COLORS = {
-    "Hacker Green": "#00ff00", "Cyber Cyan": "#00ffff", 
-    "Retro Amber": "#ffbf00", "Pure White": "#ffffff", "Error Red": "#ff5555"
+    "Hacker Green": "#00ff00", 
+    "Cyber Cyan": "#00ffff", 
+    "Retro Amber": "#ffbf00", 
+    "Pure White": "#ffffff", 
+    "Error Red": "#ff5555"
 }
 
 ctk.set_appearance_mode("Dark")
@@ -143,7 +145,7 @@ class DashboardApp(ctk.CTk):
         super().__init__()
         self.manager = manager
         self.title("Command Center Pro")
-        self.geometry("1000x650")
+        self.geometry("750x500")
 
         self.grid_columnconfigure(0, weight=0)
         self.grid_columnconfigure(1, weight=1)
@@ -303,7 +305,7 @@ class DashboardApp(ctk.CTk):
         self.sys_log_box.pack(fill="both", expand=True, padx=20, pady=(0, 20))
         self.sys_log_box.configure(state="disabled")
 
-        self.frame_settings = ctk.CTkFrame(self, corner_radius=0, fg_color="transparent")
+        self.frame_settings = ctk.CTkScrollableFrame(self, corner_radius=0, fg_color="transparent")
         ctk.CTkLabel(self.frame_settings, text="Settings", font=("Segoe UI", 20, "bold")).pack(anchor="w", padx=20, pady=20)
         
         set_card = ctk.CTkFrame(self.frame_settings)

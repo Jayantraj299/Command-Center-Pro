@@ -15,7 +15,7 @@
         "clock_widget.py": false
     },
     "font_size": 12,
-    "tile_height": 30,
+    "tile_height": 28,
     "script_order": [
         "wifi_automator.py",
         "clock_widget.py"
